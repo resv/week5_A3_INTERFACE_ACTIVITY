@@ -7,7 +7,6 @@ public class AdultUser implements LibraryUser {
 		String bookType;
 		
 //	REGISTER ACCOUNT METHOD SATISFIES INTERFACE, LIBRARYUSER CONTRACT	
-		@Override
 		public void registerAccount(int age) {
 			this.age = age;
 			if (age > 12) {
